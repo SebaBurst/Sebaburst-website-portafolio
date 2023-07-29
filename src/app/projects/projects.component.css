@@ -1,0 +1,42 @@
+.projects-container{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.content-projects-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.right-container{
+    width: 70%;
+}
+.left-container{
+    width: 30%;
+    
+
+}
+.left-container img{
+    width: 100%;
+
+}
+
+.grid-projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 4 columnas con el mismo ancho */
+    grid-gap: 10px;
+    /* Espacio entre las celdas */
+}
+
+
+.grid-items{
+    background-color: #ffff;
+    padding: 0px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}

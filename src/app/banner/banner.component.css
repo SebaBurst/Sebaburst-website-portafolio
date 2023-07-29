@@ -3,3 +3,13 @@
     height: 80px;
     width: 100%;
 }
+
+.logo{
+    margin-left:5%;
+    height: 70px;
+}
+
+.logo img{
+    height: 70px;
+    margin-top: 5px;
+}
