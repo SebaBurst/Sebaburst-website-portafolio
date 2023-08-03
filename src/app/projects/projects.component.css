@@ -13,7 +13,7 @@
 
 
 .right-container{
-    width: 70%;
+    width: 65%;
 }
 .left-container{
     width: 30%;
@@ -41,3 +41,31 @@
     text-align: center;
     cursor: pointer;
 }
+.info-container{
+    padding: 5%;
+    width: 90%;}
+
+.info-container h1{
+    
+    font-style: bold;
+    color: #064d7d;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.info-container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #515354;
+}
+
+.hover-content p{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+
+}
+

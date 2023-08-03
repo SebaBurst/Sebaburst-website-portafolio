@@ -60,12 +60,30 @@
 }
 
 
-.hover-content p{
-    color: white;
-}
 .card-container:hover .hover-content {
     opacity: 1;
     border-radius: 20px;
     /* Mostrar el hover cuando se hace hover en el contenedor */
 
+}
+.hover-content p{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+
+}
+
+.hover-content button{
+    font-size: 14px;
+    font-weight: bold;
+    color: #00304f;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #ffffff;
 }
