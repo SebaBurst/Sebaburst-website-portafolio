@@ -1,0 +1,25 @@
+.presentation-bg{
+    height: 500px;
+    width: 100%;
+    background-color: #3498DB;
+}
+
+.container-presentation{
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-container{
+    width: 60%;
+}
+.right_container{
+    width: 40%;
+}
+
+.right_container img{
+    margin-left: -30%;
+    width: 120%;
+}

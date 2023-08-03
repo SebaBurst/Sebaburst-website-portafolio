@@ -1,5 +1,6 @@
 .projects-container{
     width: 100%;
+    margin-top: -6px;
     background-color: #f0f0f0;
 }
 
@@ -28,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* 4 columnas con el mismo ancho */
-    grid-gap: 10px;
+    grid-gap: 20px;
     /* Espacio entre las celdas */
 }
 

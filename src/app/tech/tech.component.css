@@ -32,6 +32,8 @@
 }
 
 .grid_item {
+    position: relative;
+
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 20px;
@@ -39,12 +41,58 @@
     cursor: pointer;
 }
 
-
-.grid_item:hover{
-    background-color: #2E86C1;
-    z-index: 3;
+.hover-tech img{
+    height: 70px;
 }
 
 .grid_item img {
     height: 70px;
+}
+
+.grid_item:hover .hover-tech{
+    opacity: 1;
+    border-radius: 20px;
+    padding: 20px;
+    /* Mostrar el hover cuando se hace hover en el contenedor */
+}
+
+.hover-tech{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: #035c97;
+    z-index: 0;
+    opacity: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tech-text{
+
+}
+
+.tech-text h1{
+    font-style: bold;
+    color: #064d7d;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hover-tech p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 19px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.tech-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #515354;
+
 }
