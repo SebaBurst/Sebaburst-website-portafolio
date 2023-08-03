@@ -1,7 +1,11 @@
 .banner_bg{
     background-color: #3498DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
-    width: 100%;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo{
@@ -13,3 +17,20 @@
     height: 70px;
     margin-top: 5px;
 }
+
+.nav_items a{
+    margin: 15px;
+    background-color: #ffffff;
+    color: #2c8cf4 !important;
+    font-size: 16px;
+    border: 1px solid #2c8cf4;
+    border-radius: 50px;
+    font-family: 'Roboto' ;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
