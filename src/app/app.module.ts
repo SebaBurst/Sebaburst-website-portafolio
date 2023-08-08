@@ -8,6 +8,7 @@ import { TechComponent } from './tech/tech.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CardProjectComponent } from './card-project/card-project.component';
 import { PresentationComponent } from './presentation/presentation.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PresentationComponent } from './presentation/presentation.component';
     TechComponent,
     ProjectsComponent,
     CardProjectComponent,
-    PresentationComponent
+    PresentationComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

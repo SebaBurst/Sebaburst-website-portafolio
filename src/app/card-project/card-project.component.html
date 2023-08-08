@@ -4,7 +4,8 @@
     </div>
     <div class="technologies">
         <div class="left-tech">
-
+            <button class="button-card" (click)="openModal()">Abrir Modal</button>
+            <app-modal title={{nameP}} *ngIf="isModalOpen" (closeModalEvent)="closeModal()"></app-modal>
         </div>
         <div class="right-tech">
             <img src="../../assets/icons/React.png">

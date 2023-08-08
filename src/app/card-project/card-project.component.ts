@@ -10,4 +10,21 @@ export class CardProjectComponent {
       @Input() imageurl?:String;
       @Input() technology?:String;
       @Input() database?:String;
+
+
+
+      isModalOpen = false;
+
+      constructor() { }
+    
+      ngOnInit(): void {
+      }
+    
+      openModal() {
+        this.isModalOpen = true;
+      }
+    
+      closeModal() {
+        this.isModalOpen = false;
+      }
 }
