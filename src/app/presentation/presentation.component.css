@@ -12,6 +12,7 @@
     align-items: center;
 }
 
+
 .left-container{
     width: 60%;
 }
@@ -20,8 +21,9 @@
 }
 
 .right_container img{
-    margin-left: -30%;
-    width: 120%;
+    margin-top: 12%;
+    margin-left: -7%;
+    width: 110%;
 }
 
 .buttons-presentation{

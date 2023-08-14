@@ -15,7 +15,7 @@
 }
 
 .right_container {
-    width: 30%;
+    width: 45%;
 }
 
 .right_container img {
@@ -32,8 +32,9 @@
 }
 
 .grid_item {
+    height: 85px;
+    width: 210px;
     position: relative;
-
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 20px;
@@ -60,10 +61,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 83%;
-    height: 70%;
+    height: 85px;
+    width: 210px;
     border-radius: 20px;
-    background-color: #035c97;
+    background-color: #0294FF;
     z-index: 0;
     opacity: 0;
     text-align: center;
@@ -75,10 +76,11 @@
 }
 
 .tech-text h1{
-    font-style: bold;
     color: #064d7d;
     font-size: 45px;
     font-family: 'Roboto', sans-serif;
+    font-style: bold;
+
 }
 
 .hover-tech p{
@@ -91,7 +93,7 @@
 
 .tech-text p{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     color: #515354;
 

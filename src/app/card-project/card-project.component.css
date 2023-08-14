@@ -1,121 +1,117 @@
-.card-image {
-    width: 100%;
+/* BEGIN CARD DESIGN */
+.hero {
+    display: inline-block;
     position: relative;
-
-    z-index: 0;
-    /* Imagen se muestra detrás del hover */
-}
-
-.card-image img {
-    width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    position: relative;
-    z-index: 0;
-    /* Imagen se muestra detrás del hover */
-}
-
-.technologies {
-    height: 55px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-
-.right-tech {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 20%;
-}
-
-.card-container {
-    position: relative;
-    /* Asegura que el contenedor sea posicionado para que el z-index tenga efecto */
-}
-
-.right-tech img {
-    width: 30px;
-}
-
-.left-tech {
-    width: 80%;
-}
-
-.hover-content {
+    width: 420px;
+    min-width: 420px;
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .hero-profile-img {
+    height: 80%;
+  }
+  
+  .hero-description-bk {
+    background-color: white;
+    border-radius: 30px;
     position: absolute;
-    top: 0;
-    left: 0;
- 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 100%;
-    height: 75%;
-    background-color:#035c97b1;
-    /* Color de fondo del hover, puedes ajustarlo según tus preferencias */
-    z-index: 0;
-    /* Hover se muestra detrás de la imagen */
-    opacity: 0;
-    /* Para que inicialmente sea transparente */
-    transition: opacity 0.3s;
-
-    /* Efecto de transición suave */
-}
-
-
-.card-container:hover .hover-content {
-    opacity: 1;
-    
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    /* Mostrar el hover cuando se hace hover en el contenedor */
-
-}
-.hover-content p{
-    font-size: 25px;
-    color: white;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    user-select: none;
-
-}
-
-.hover-content button{
-    font-size: 14px;
+    top: 55%;
+    left: -5px;
+    height: 65%;
+    width: 108%;
+    transform: skew(19deg, -9deg);
+  }
+  
+  .second .hero-description-bk {
+    background-color: white;
+  }
+  
+  .hero-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 30%;
+    left: 30px;
+    overflow:hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero-logo img {
+    height: 100%;
+  }
+  
+  .hero-description {
+    position: absolute;
+    color: #0294FF;
     font-weight: bold;
-    color: #00304f;
-    background-color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 10px;
-    width: 50%;
+    left: 150px;
+    bottom: 26%;
+  }
+  
+  .hero-btn {
+    position: absolute;
+    right: 30px;
+    bottom: 10%;
+    padding: 10px 20px;
+  }
+  
+  .hero-btn a {
+    color: #fff;
+  }
+  
+  .hero-date {
+    position: absolute;
+    color: #fff;
+    left: 30px;
+    bottom: 10%;
+  }
+  /* END CARD DESIGN */
+
+
+
+  .hero-description p {
     font-family: 'Roboto', sans-serif;
-    border: 1px solid #ffffff;
+    font-style: bold;
+  }
+  .btn i:before {
+    width: 14px;
+    height: 14px;
+    position: fixed;
+    color: #fff;
+    background: #0077B5;
+    padding: 10px;
+    border-radius: 50%;
+    top:5px;
+    right:5px;
+  }
+
+
+
+
+  .buttonCard {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #0294FF;
+    background-color: white;
+    border-radius: 6px;
+    color: #0294FF;
+    box-shadow: inset 0 0 0 0 #0294FF;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 500;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
 }
 
-.button-card{
-    padding: 10px;
-    font-weight: 600;
-    border-radius: 10px;
-    width: 65%;
-    color: #00304f;
-    background-color: white;
-    border: 3px solid #3498DB;
-    font-family: 'Roboto', sans-serif;
+.buttonCard:hover {
+    box-shadow: inset 300px 0 0 0 #0294FF;
     cursor: pointer;
-
-}
-
-.button-card:hover{
-    padding: 10px;
-    font-weight: 600;
-    border-radius: 10px;
-    width: 65%;
     color: white;
-    background-color: #3498DB;
-    border: 3px solid #3498DB;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-
 
 }

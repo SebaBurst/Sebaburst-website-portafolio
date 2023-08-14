@@ -10,6 +10,7 @@ export class ModalComponent {
   
   //Input values
   @Input() title?:String;
+  @Input() description?:String;
   constructor() { }
 
   ngOnInit(): void {

@@ -10,6 +10,7 @@ export class CardProjectComponent {
       @Input() imageurl?:String;
       @Input() technology?:String;
       @Input() database?:String;
+      @Input() description?:String;
 
 
 
