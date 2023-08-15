@@ -1,0 +1,32 @@
+
+.contact-container{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.contact-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.right-container{
+    width: 30%;
+}
+.left-container{
+    width: 65%;
+    
+
+}
+.right-container img{
+    width: 90%;
+
+}
+
+.separator-2{
+    width: 100%;
+}
+.separator-2 img{
+    width: 100%;
+    user-select: none;
+    user-zoom: none;
+}

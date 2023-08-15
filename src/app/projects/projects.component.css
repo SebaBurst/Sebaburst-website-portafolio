@@ -68,3 +68,11 @@
 
 }
 
+.separator-1{
+    width: 100%;
+}
+.separator-1 img{
+    width: 100%;
+    user-select: none;
+    user-zoom: none;
+}

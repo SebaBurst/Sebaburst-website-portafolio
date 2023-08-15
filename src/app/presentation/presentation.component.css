@@ -1,7 +1,10 @@
 .presentation-bg{
     height: 500px;
     width: 100%;
-    background-color: #3498DB;
+    background-image: url('../../assets/bg/bg-home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .container-presentation{
@@ -24,6 +27,8 @@
     margin-top: 12%;
     margin-left: -7%;
     width: 110%;
+    user-select: none;
+    z-index: 7;
 }
 
 .buttons-presentation{
@@ -99,3 +104,4 @@
     font-weight: 900;
     font-size: 65px;
 }
+

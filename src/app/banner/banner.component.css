@@ -1,5 +1,5 @@
 .banner_bg{
-    background-color: #3498DB;
+    background-color: #0294FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,3 +34,7 @@
     padding: 10px 30px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
+
+
+
+  
