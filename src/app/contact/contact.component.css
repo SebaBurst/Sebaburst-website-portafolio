@@ -2,6 +2,9 @@
 .contact-container{
     background-color: #ffffff;
     width: 100%;
+    background-image: url('../../assets/bg/bg-s.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .contact-box{

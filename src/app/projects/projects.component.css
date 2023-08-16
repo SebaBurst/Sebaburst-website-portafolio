@@ -30,6 +30,7 @@
     grid-template-columns: repeat(3, 1fr);
     /* 4 columnas con el mismo ancho */
     grid-gap: 20px;
+    width: 100%;
     /* Espacio entre las celdas */
 }
 
@@ -76,3 +77,4 @@
     user-select: none;
     user-zoom: none;
 }
+

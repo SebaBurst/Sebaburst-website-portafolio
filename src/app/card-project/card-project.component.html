@@ -1,18 +1,18 @@
-<div class="second hero">
-    <img class="hero-profile-img"
-        src={{imageurl}}
-        alt="">
-    <div class="hero-description-bk"></div>
-    <div class="hero-logo">
-        <img src="https://static-00.iconduck.com/assets.00/kotlin-icon-512x512-0o0lfw0b.png" alt="">
+<div class="card-container"  (click)="openModal()">
+    <div class="card-image">
+        <img src={{imageurl}}>
     </div>
-    <div class="hero-description">
-        <p>{{nameP}}</p>
-    </div>
-    <div class="hero-btn">
-        <button class="buttonCard" (click)="openModal()">Mas Info.</button>
-        <app-modal title={{nameP}} description={{description}} *ngIf="isModalOpen"
-            (closeModalEvent)="closeModal()"></app-modal>
+    <div class="technologies">
+        <div class="left-tech">
 
+        </div>
+        <div class="right-tech">
+            <img src="../../assets/icons/React.png">
+            <img src="../../assets/icons/firebase.png">
+
+        </div>
     </div>
 </div>
+
+<app-modal title={{nameP}} description={{description}} *ngIf="isModalOpen"
+(closeModalEvent)="closeModal()"></app-modal>
