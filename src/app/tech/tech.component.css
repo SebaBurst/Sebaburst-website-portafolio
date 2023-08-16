@@ -13,6 +13,9 @@
 
 }
 
+
+
+
 .left_container {
     width: 70%;
 }
@@ -32,6 +35,7 @@
     grid-template-columns: repeat(4, 1fr);
     /* 4 columnas con el mismo ancho */
     grid-gap: 10px;
+    
     /* Espacio entre las celdas */
 }
 
@@ -48,10 +52,12 @@
 
 .hover-tech img{
     height: 70px;
+    user-select: none;
 }
 
 .grid_item img {
     height: 70px;
+    user-select: none;
 }
 
 .grid_item:hover .hover-tech{
@@ -84,6 +90,7 @@
     font-size: 45px;
     font-family: 'Roboto', sans-serif;
     font-style: bold;
+    user-select: none;
 
 }
 
@@ -93,6 +100,7 @@
     font-size: 19px;
     margin-top: 0px;
     font-weight: bold;
+    user-select: none;
 }
 
 .tech-text p{
@@ -100,6 +108,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #515354;
+    user-select: none;
 
 }
 
