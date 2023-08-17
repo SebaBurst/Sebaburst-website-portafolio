@@ -7,6 +7,8 @@
 
 }
 
+
+
 .container-presentation{
     width: 90%;
     margin-left: 5%;
@@ -101,7 +103,18 @@
 .text-presentation h1{
     font-family: 'Roboto', sans-serif;
     color: white;
+    user-select: none;
     font-weight: 900;
     font-size: 65px;
+}
+
+.text-presentation p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    user-select: none;
+
+
 }
 

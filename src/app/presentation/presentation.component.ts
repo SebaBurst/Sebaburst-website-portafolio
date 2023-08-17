@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./presentation.component.css']
 })
 export class PresentationComponent {
-
+  redireccionarLinkedIn(): void {
+    window.open('https://www.linkedin.com/in/sebastian-retamales-aguilera-910b791ba/', '_blank');
+  }
+  redireccionarGithub(): void {
+    window.open('https://github.com/SebaBurst', '_blank');
+  }
 }
