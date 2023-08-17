@@ -33,3 +33,15 @@
     user-select: none;
     user-zoom: none;
 }
+
+.input-login{
+    width: 80%;
+    padding: 14px;
+    border-radius: 20px;
+    border: 1px solid #0294ff;
+}
+
+.loginForm{
+    margin-left: 30%;
+    width: 80%;
+}
