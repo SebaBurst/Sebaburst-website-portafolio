@@ -44,4 +44,20 @@
 .loginForm{
     margin-left: 30%;
     width: 80%;
+    border-radius: 20px;
+    background-color: #0294ff52;
+}
+
+.info-container-contact{
+    padding: 5%;
+    width: 90%;
+}
+
+.info-container-contact h1{
+    color: #064d7d;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    user-select: none;
+
 }
