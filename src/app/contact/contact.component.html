@@ -4,32 +4,29 @@
     </div>
     <div class="info-container-contact">
         <h1>Contacto.</h1>
-        <p>A continuación ....</p>
     </div>
     <div class="contact-box">
         <div class="left-container">
             
             <div class='loginForm'>
-                <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                      <label>Your Name: <input type="text" name="name" /></label>
-                    </p>
-                    <p>
-                      <label>Your Email: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                      <label>Your Role: <select name="role[]" multiple>
-                        <option value="leader">Leader</option>
-                        <option value="follower">Follower</option>
-                      </select></label>
-                    </p>
-                    <p>
-                      <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                      <button type="submit">Send</button>
-                    </p>
-                  </form>
+                <div class="inputs-forms">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                          <input class="input-contact" type="text" name="name" placeholder="Ingrese su Nombre" />
+                        </p>
+                        <p>
+                          <input class="input-contact" type="email" name="email" placeholder="Ingrese su correo" />
+                          
+                        </p>
+                        <p>
+                          <textarea class="input-contactArea" name="message" placeholder="Ingrese su mensaje"></textarea>
+                        </p>
+                        <p>
+                          <button  type="submit" class="buttonSend">Contactar</button>
+                        </p>
+                      </form>
+                </div>
+             
 
 
 
