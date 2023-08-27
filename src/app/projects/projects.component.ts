@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
+
+  redireccionarInazuma(): void { 
+    window.open('https://inazumaweb-3e5c6.web.app/', '_blank');
+  }
   redireccionarBike(): void {
     window.open('https://bicicleteroutal.tech/', '_blank');
   }
