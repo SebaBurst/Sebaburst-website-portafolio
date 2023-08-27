@@ -10,23 +10,38 @@
         <div class="left-container">
             
             <div class='loginForm'>
-                <form >
-                    <p>Nombre</p>
-                    <input class="input-login" required="required" name="email" type='text' placeholder='Ingrese su nombre' />
-                    <br />
-                    <br />
-                    <p>Correo</p>
-                    <input class="input-login" required="required" name="email" type='text' placeholder='Ingrese su correo' />
-                    <br />
-                    <br />
-                    <p>Asunto</p>
-                    <input class="input-login" required="required" name="email" type='text' placeholder='Escriba aqui su mensaje...' />
-                    <br />
-                    <br />
-                    <Button class="button-login" type="submit" >
-                        Contactar
-                    </Button>
-                </form>
+                <form
+                name="contact"
+                method="POST"
+                data-netlify-recaptcha="true"
+                data-netlify="true"
+              >
+                <p>
+                  <label>
+                    Email: <input type="text" name="email" />
+                  </label>
+                </p>
+
+                <p>
+                    <label>
+                      nombre: <input type="text" name="name" />
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      Asunto: <input type="text" name="asunto" />
+                    </label>
+                  </p>
+                <p>
+                  <label>
+                    Message: <textarea name="message"></textarea>
+                  </label>
+                </p>
+                <div data-netlify-recaptcha="true"></div>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
             </div>
 
         </div>
