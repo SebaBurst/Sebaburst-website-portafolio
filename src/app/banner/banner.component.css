@@ -19,6 +19,7 @@
 }
 
 .nav_items a{
+    display: none;
     margin: 15px;
     background-color: #ffffff;
     color: #2c8cf4 !important;

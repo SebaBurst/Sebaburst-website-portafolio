@@ -10,6 +10,7 @@ import { CardProjectComponent } from './card-project/card-project.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ModalComponent } from './modal/modal.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     CardProjectComponent,
     PresentationComponent,
     ModalComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
