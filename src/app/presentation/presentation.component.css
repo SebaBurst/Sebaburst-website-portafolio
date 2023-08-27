@@ -180,7 +180,15 @@
         margin-top: 4%;
     
     }
-
+    .presentation-bg {
+        height: 500px;
+        width: 100%;
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/inazumaplus-3f274.appspot.com/o/fondomovil.jpg?alt=media&token=06ff35c4-f7a7-4fbc-ad91-f81b566edf8a');
+        background-size: cover;
+        background-attachment: fixed;
+    
+    }
+    
     
 
 }
