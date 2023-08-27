@@ -122,3 +122,66 @@
     user-zoom: none;
     margin-top: -10%;
 }
+
+
+ /* Estilos para pantallas pequeñas */
+ @media (max-width: 768px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 4 columnas con el mismo ancho */
+        grid-gap: 10px;
+        
+        /* Espacio entre las celdas */
+    }
+
+    .grid_item{
+        height: 74px;
+        width: 135px;
+        position: relative;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+    
+    }
+
+    .tech-text{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        width: 91%;
+        font-size: 18px;
+        color: #515354;
+        -webkit-user-select: none;
+        user-select: none;
+        margin-left: 5%;
+    }
+    .images_container {
+        display: block;
+        align-items: center;
+        padding: 10px;
+    
+    }
+
+    .right_container{
+        display: none;
+    }
+    
+
+    .hover-tech{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 75px;
+        width: 133px;
+        border-radius: 20px;
+        background-color: #0294FF;
+        z-index: 0;
+        opacity: 0;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    
+ }

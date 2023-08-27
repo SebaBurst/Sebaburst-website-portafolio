@@ -1,4 +1,4 @@
-.presentation-bg{
+.presentation-bg {
     height: 500px;
     width: 100%;
     background-image: url('../../assets/bg/bg-home.jpg');
@@ -9,7 +9,7 @@
 
 
 
-.container-presentation{
+.container-presentation {
     width: 90%;
     margin-left: 5%;
     height: 100%;
@@ -18,14 +18,15 @@
 }
 
 
-.left-container{
+.left-container {
     width: 60%;
 }
-.right_container{
+
+.right_container {
     width: 40%;
 }
 
-.right_container img{
+.right_container img {
     margin-top: 12%;
     margin-left: -7%;
     width: 110%;
@@ -33,13 +34,13 @@
     z-index: 7;
 }
 
-.buttons-presentation{
+.buttons-presentation {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.buttons-presentation img{
+.buttons-presentation img {
     width: 13%;
     margin-left: 26%;
     margin-top: 4%;
@@ -47,7 +48,7 @@
 
 
 
-.buttons-container{
+.buttons-container {
     position: relative;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
@@ -59,7 +60,7 @@
 
 
 
-.hover-button{
+.hover-button {
     position: absolute;
     top: 0;
     left: 0;
@@ -72,7 +73,7 @@
     cursor: pointer;
 }
 
-.icon-container a{
+.icon-container a {
     font-size: 30px;
     position: absolute;
     top: 28%;
@@ -81,7 +82,7 @@
     margin-left: 13px;
 }
 
-.hover-button a{
+.hover-button a {
     font-size: 30px;
     position: absolute;
     top: 28%;
@@ -90,17 +91,15 @@
     margin-left: 13px;
 }
 
-.buttons-container:hover .hover-button{
+.buttons-container:hover .hover-button {
     opacity: 1;
     border-radius: 10px;
 }
 
 
-.text-presentation{
+.text-presentation {}
 
-}
-
-.text-presentation h1{
+.text-presentation h1 {
     font-family: 'Roboto', sans-serif;
     color: white;
     user-select: none;
@@ -108,7 +107,7 @@
     font-size: 65px;
 }
 
-.text-presentation p{
+.text-presentation p {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 18px;
@@ -118,3 +117,70 @@
 
 }
 
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+
+    .left-container {
+        width: 90%;
+    }
+
+    .right_container {
+        display: none;
+    }
+
+    .text-presentation h1 {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        user-select: none;
+        font-weight: 900;
+        font-size: 27px;
+    }
+
+    .container-presentation {
+        width: 87%;
+        margin-left: 9%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .hover-button a {
+        font-size: 30px;
+        position: absolute;
+        top: 28%;
+        display: none;
+        color: #ffffff;
+        font-weight: bold;
+        margin-left: 13px;
+    }
+    .icon-container a {
+        font-size: 30px;
+        display: none;
+        position: absolute;
+        top: 28%;
+        color: #252525;
+        font-weight: bold;
+        margin-left: 13px;
+    }
+    
+    .buttons-container{
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+        background-color: white;
+        width: 50%;
+        margin-left: 3%;
+        height: 70px;
+    
+    }
+
+    .buttons-presentation img{
+        width: 37%;
+        margin-left: 32%;
+        margin-top: 4%;
+    
+    }
+
+    
+
+}

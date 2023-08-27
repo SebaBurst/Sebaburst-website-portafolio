@@ -36,5 +36,11 @@
   }
 
 
+  @media (max-width: 768px) {
+    .nav_items{
+        display: none;
+    }
+  }
+
 
   
