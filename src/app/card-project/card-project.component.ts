@@ -11,7 +11,7 @@ export class CardProjectComponent {
       @Input() technology?:String;
       @Input() database?:String;
       @Input() description?:String;
-
+  
 
 
       isModalOpen = false;
