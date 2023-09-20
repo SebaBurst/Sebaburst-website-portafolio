@@ -8,7 +8,11 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
 
   redireccionarInazuma(): void { 
-    window.open('https://inazumaweb-3e5c6.web.app/', '_blank');
+    window.open('https://inazumaplus.netlify.app/', '_blank');
+  }
+
+  redireccionarRotom(): void { 
+    window.open('https://rotom-dex.netlify.app/', '_blank');
   }
   redireccionarBike(): void {
     window.open('https://bicicleteroutal.tech/', '_blank');
