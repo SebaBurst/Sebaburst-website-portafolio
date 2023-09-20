@@ -10,17 +10,21 @@
             
             <div class='loginForm'>
                 <div class="inputs-forms">
-                    <form name="contact" method="POST" data-netlify="true">
-                      <input type="hidden" name="form-name" value="contact">
+                    <form name="contact" method="POST" action="https://formspree.io/f/mgejnzzw">
+                      <input type="hidden"    required="required" name="form-name" value="contact">
                         <p>
-                          <input class="input-contact" type="text" name="name" placeholder="Ingrese su Nombre" />
+                          <input  required="required" class="input-contact" type="text" name="name" placeholder="Ingrese su Nombre" />
                         </p>
                         <p>
-                          <input class="input-contact" type="email" name="email" placeholder="Ingrese su correo" />
+                          <input  required="required" class="input-contact"  type="email" name="email" placeholder="Ingrese su correo" />
                           
                         </p>
                         <p>
-                          <textarea class="input-contactArea" name="message" placeholder="Ingrese su mensaje"></textarea>
+                          <input   required="required" class="input-contact" type="email" name="asunto" placeholder="Ingrese el asunto" />
+                          
+                        </p>
+                        <p>
+                          <textarea   required="required" class="input-contactArea" name="message" placeholder="Ingrese su mensaje"></textarea>
                         </p>
                         <p>
                           <button  type="submit" class="buttonSend">Contactar</button>
