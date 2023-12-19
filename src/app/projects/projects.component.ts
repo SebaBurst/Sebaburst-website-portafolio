@@ -11,6 +11,10 @@ export class ProjectsComponent {
     window.open('https://inazumaplus.netlify.app/', '_blank');
   }
 
+
+  redireccionarSmart():void{
+    window.open('https://drive.google.com/uc?id=14tM9DwXvEEMnJfyxnWtDpyB_LZ9jLOJg&export=download', '_blank');
+  }
   redireccionarRotom(): void { 
     window.open('https://rotom-dex.netlify.app/', '_blank');
   }
