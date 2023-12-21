@@ -8,6 +8,17 @@
 }
 
 
+.myAnimation {
+    width: 100px;
+    height: 100px;
+    animation: myAnimation 4s infinite;
+   }
+   
+   @keyframes myAnimation {
+     0%   {transform: translateY(-100%);}
+     100% {transform: translateY(100%);}
+   }
+
 
 .container-presentation {
     width: 90%;
