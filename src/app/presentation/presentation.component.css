@@ -10,13 +10,13 @@
 
 .myAnimation {
     width: 100px;
-    height: 100px;
-    animation: myAnimation 4s infinite;
+    animation: myAnimation 2s infinite;
    }
    
    @keyframes myAnimation {
-     0%   {transform: translateY(-100%);}
-     100% {transform: translateY(100%);}
+     0%   {transform: translateY(-3%);}
+     50%   {transform: translateY(-3%);}
+     100% {transform: translateY(3%);}
    }
 
 
