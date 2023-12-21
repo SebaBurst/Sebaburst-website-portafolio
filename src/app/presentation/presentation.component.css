@@ -46,15 +46,17 @@
 }
 
 .buttons-presentation {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
     align-items: center;
     width: 100%;
 }
 
 .buttons-presentation img {
     width: 9%;
-    margin-left: 26%;
-    margin-top: 4%;
+    margin-top: 7%;
+    margin-left: 20%;
 }
 
 
@@ -64,7 +66,7 @@
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     background-color: white;
-    width: 40%;
+    width: 100%;
     margin-left: 3%;
     height: 70px;
 }
@@ -76,6 +78,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    border: 3px solid white;
     height: 100%;
     border-radius: 20px;
     background-color: #035c97;
@@ -88,7 +91,7 @@
     font-size: 30px;
     position: absolute;
     top: 28%;
-    color: #252525;
+    color: #064d7d;
     font-weight: bold;
     margin-left: 13px;
 }
@@ -105,6 +108,7 @@
 .buttons-container:hover .hover-button {
     opacity: 1;
     border-radius: 10px;
+    transition: opacity 500ms ease-in-out 0s;
 }
 
 
