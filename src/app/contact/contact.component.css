@@ -21,7 +21,9 @@
 
 }
 .right-container img{
-    width: 110%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
 
 }
 
