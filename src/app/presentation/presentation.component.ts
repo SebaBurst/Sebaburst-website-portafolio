@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PresentationComponent {
   redireccionarLinkedIn(): void {
-    window.open('https://www.linkedin.com/in/sebastian-retamales-aguilera-910b791ba/', '_blank');
+    window.open('https://www.linkedin.com/in/sebastián-retamales-aguilera-910b791ba/', '_blank');
   }
   redireccionarGithub(): void {
     window.open('https://github.com/SebaBurst', '_blank');
