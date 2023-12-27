@@ -1,7 +1,7 @@
 .banner_bg{
-    background-color: #0294FF;
+    background-color: #2039a7;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 80px;
     padding: 0 20px;
@@ -9,12 +9,11 @@
 }
 
 .logo{
-    margin-left:5%;
     height: 70px;
 }
 
 .logo img{
-    height: 70px;
+    height: 55px;
     margin-top: 5px;
 }
 

@@ -4,51 +4,33 @@
             <div class="text-presentation">
                 <h1>Hola, Me llamo Sebastián.</h1>
                 <p>
-                    Soy egresado en Ingeniería Civil en Computación de la Universidad de Talca, con enfoque en el desarrollo de software y especialización en Front-end. Mi experiencia abarca la creación de soluciones para plataformas web y un poco en móviles, combinando habilidades en diseño de interfaces para ofrecer experiencias de usuario excepcionales y funcionales.
+                    Soy egresado en Ingeniería Civil en Computación de la Universidad de Talca, con enfoque en el
+                    desarrollo de software y especialización en Front-end. Mi experiencia abarca la creación de
+                    soluciones para plataformas web y un poco en móviles, combinando habilidades en diseño de interfaces
+                    para ofrecer experiencias de usuario excepcionales y funcionales.
                 </p>
             </div>
             <div class="buttons-presentation">
-                <div (click)="redireccionarGithub()" class="buttons-container">
-                    <div class="icon-container">
-                        <img src="../../assets/icons/github.png">
-                        <a> <a>Github</a></a>
-
-                    </div>
-                    <div class="hover-button">
-                        <img src="../../assets/icons/github_2.png">
-                        <a> <a>Github</a></a>
-                    </div>
-
-                </div>
-                <div (click)="redireccionarLinkedIn()" class="buttons-container">
-                    <div class="icon-container">
-                        <img src="../../assets/icons/linkedin.png">
-                        <a> <a>LinkedIn</a></a>
-                    </div>
-                    <div class="hover-button">
-                        <img src="../../assets/icons/linkedin_2.png">
-                        <a> <a>LinkedIn</a></a>
-
-                    </div>
-
+                <div class="button-reload" (click)="redireccionarGithub()" (mouseenter)="onHover(true)" (mouseleave)="onHover(false)">
+                    <img [src]="isHover ? '../../assets/icons/github_2.png' : '../../assets/icons/github.png'" />
+                    <a>  
+                         Github</a>
                 </div>
 
-                <div (click)="redireccionarCV()" class="buttons-container">
-                    <div class="icon-container">
-                        <img src="../../assets/icons/github.png">
-                        <a> <a>CV </a></a>
-
-                    </div>
-                    <div class="hover-button">
-                        <img src="../../assets/icons/github_2.png">
-                        <a> <a>CV</a></a>
-                    </div>
-
+                <div class="button-reload" (click)="redireccionarLinkedIn()" (mouseenter)="onHover2(true)" (mouseleave)="onHover2(false)">
+                    <img [src]="isHover2 ? '../../assets/icons/linkedin_2.png' : '../../assets/icons/linkedin.png'" />
+                    <a>Linkedin</a>
                 </div>
+
+
+                <div class="button-reload" (click)="redireccionarCV()">
+                    <a>CV</a>
+                </div>
+
             </div>
         </div>
         <div class="right_container">
-            <img class="myAnimation"   src="../../assets/me.png" alt="me">
+            <img class="myAnimation" src="../../assets/me.png" alt="me">
 
         </div>
     </div>

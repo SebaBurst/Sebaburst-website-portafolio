@@ -1,0 +1,21 @@
+/* Estilos para WebKit (Chrome, Safari, etc.) */
+/* Ancho del scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Estilo del track (fondo del scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #b30d0d;
+  }
+  
+  /* Estilo del thumb (la barra del scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: #020155;
+    border-radius: 6px;
+  }
+  
+  /* Estilo del thumb al estar hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #721553;
+  }

@@ -1,3 +1,28 @@
+
+
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../../fonts/Mosk_Typeface/MoskNormal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../../fonts/Mosk_Typeface/MoskExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: bold;
+}
+
+* {
+    font-family: 'MiFuente';
+}
+
+
+
 .tech_container {
     width: 90%;
     padding: 5%;
@@ -75,7 +100,7 @@
     height: 85px;
     width: 210px;
     border-radius: 20px;
-    background-color: #0294FF;
+    background: linear-gradient(180deg, #2039a7 100px, #000 950px);;
     z-index: 0;
     opacity: 0;
     text-align: center;
@@ -89,14 +114,14 @@
 .tech-text h1{
     color: #064d7d;
     font-size: 45px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'MiFuente';
     font-style: bold;
     user-select: none;
 
 }
 
 .hover-tech p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'MiFuente';
     color: white;
     font-size: 19px;
     margin-top: 0px;
@@ -105,7 +130,7 @@
 }
 
 .tech-text p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'MiFuente';
     font-weight: 400;
     font-size: 20px;
     color: #515354;
@@ -149,7 +174,7 @@
     }
 
     .tech-text{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'MiFuente';
         font-weight: 400;
         width: 91%;
         font-size: 18px;
