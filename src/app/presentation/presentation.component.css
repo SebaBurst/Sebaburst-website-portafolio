@@ -202,6 +202,7 @@
 
     .left-container {
         width: 90%;
+        
     }
 
     .right_container {
@@ -221,6 +222,7 @@
         margin-left: 9%;
         height: 100%;
         display: flex;
+        text-align: center;
         align-items: center;
     }
 
@@ -257,7 +259,6 @@
 
     .buttons-presentation img {
         width: 37%;
-        margin-left: 32%;
         margin-top: 4%;
 
     }
@@ -265,10 +266,38 @@
     .presentation-bg {
         height: 500px;
         width: 100%;
-        background-image: url('https://firebasestorage.googleapis.com/v0/b/inazumaplus-3f274.appspot.com/o/fondomovil.jpg?alt=media&token=06ff35c4-f7a7-4fbc-ad91-f81b566edf8a');
-        background-size: cover;
-        background-attachment: fixed;
+        background: linear-gradient(180deg, #2039a7 100px, #000 950px);
 
+    }
+
+
+
+    .button-reload {
+        border: none;
+        cursor: pointer;
+        font-family: 'MiFuente';
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 76%;
+        height: 45px;
+        font-weight: 600;
+        color: #2039a7;
+        border: 2px solid white;
+        background-color: #ffff;
+        padding: 10px;
+        transition: background-color 500ms ease-in-out, color 500ms ease-in-out; /* Transición en el cambio de color de fondo y texto */
+    }
+
+    .button-reload a{
+        display: none;
+    }
+    
+    .button-reload:hover {
+        background-color: #2039a727;
+        color: white; /* Nuevo color del texto al hacer hover */
+        border: 2px solid rgba(255, 255, 255, 0.445);
     }
 
 
